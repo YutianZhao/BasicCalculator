@@ -11,6 +11,7 @@ A basic calculator
 </br>
 </br>
 &emsp;&emsp;&emsp;&emsp;"Okay, if I type '1 + 2 + ', then it displays '3', because '+' and '-' will calculate the current result, right?" I asked.
+</br>
 &emsp;&emsp;&emsp;&emsp;"umm.... you are right."
 </br>
 </br>
