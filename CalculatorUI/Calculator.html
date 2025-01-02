@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            @import url(./Calculator.css);
+        </style>
+        <title>Basic Calculator</title>
+    </head>
+    <body>
+        <div class="calculator">
+            <input type="text" class="display" id="display" disabled />
+            <div class="buttons">
+                <button onclick="clearDisplay('all')">AC</button>
+                <button onclick="clearDisplay('last')">C</button>
+                <button onclick="userInput('/')">/</button>
+                <button onclick="userInput('*')">*</button>
+                <button onclick="userInput(7)">7</button>
+                <button onclick="userInput(8)">8</button>
+                <button onclick="userInput(9)">9</button>
+                <button onclick="userInput('-')">-</button>
+                <button onclick="userInput(4)">4</button>
+                <button onclick="userInput(5)">5</button>
+                <button onclick="userInput(6)">6</button>
+                <button onclick="userInput('+')">+</button>
+                <button onclick="userInput(1)">1</button>
+                <button onclick="userInput(2)">2</button>
+                <button onclick="userInput(3)">3</button>
+                <button onclick="userInput('=')" style="height: 110px; grid-row: span 2;">=</button>
+                <button onclick="userInput(0)" style="grid-column: span 2;">0</button>
+                <button onclick="userInput('.')">.</button>
+            </div>
+    </body>
+    <script type="text/javascript" src="../CalculatorJS/Calculator.js"></script>
+</html>
